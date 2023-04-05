@@ -1,14 +1,13 @@
 <script>
-	import Liner from './Liner.svelte';
 </script>
 
-<footer class="w-full px-4 py-8 font-opensans lg:px-8">
-	<div class="flex flex-col gap-4">
-		<div class="flex gap-4">
+<footer class="w-full py-4 px-4 font-opensans lg:relative lg:bg-slate-900 lg:py-8 lg:px-16">
+	<div class="flex flex-col">
+		<div class="flex gap-4 pb-8 lg:pb-16">
 			<!-- instagram -->
 			<a href="https://www.instagram.com/peterbgallery/" target="_blank" rel="noreferrer">
 				<svg
-					class="h-6 w-6 lg:h-8 lg:w-8"
+					class="h-6 w-6 text-gray-300 lg:h-8 lg:w-8"
 					viewBox="0 0 15 15"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -35,6 +34,6 @@
 			<!-- > -->
 		</div>
 		<!-- other info -->
-		<div class="font-regular text-sm text-[rgb(123,123,123)]">Copyright © 2023 Peter Bao</div>
+		<div class="font-regular py-4 text-sm text-gray-200">Copyright © 2023 Peter Bao</div>
 	</div>
 </footer>

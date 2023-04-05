@@ -32,18 +32,18 @@
 	toggleSwtich();
 </script>
 
-<div class="montage-box relative h-screen w-screen">
+<div class="montage top-0 left-0  h-screen w-screen">
 	<img
 		alt="someimage1"
 		src={srcA}
-		class="imgA absolute h-full w-full object-cover"
+		class="absolute h-full w-full object-cover lg:fixed"
 		style={`opacity: ${showA ? 1 : 0}`}
 		fetchpriority="high"
 	/>
 	<img
 		alt="someimage2"
 		src={srcB}
-		class="imgB absolute h-full w-full object-cover"
+		class=" absolute h-full w-full object-cover lg:fixed"
 		style={`opacity: ${showB ? 1 : 0}`}
 		fetchpriority="high"
 	/>

@@ -1,7 +1,7 @@
 {
-	"app_name": "baopeng",
-	"short_name": "baopeng",
-	"description": "Demo app for baopeng",
+	"app_name": "peterb gallery",
+	"short_name": "peterb",
+	"description": "Personal website for Peter Bao Gallery.",
 	"lang": "en",
 	"start_url": "/",
 	"theme_color": "#000000",

@@ -8,15 +8,15 @@
 </script>
 
 <header
-	class="h-5vh fixed z-20 flex w-full items-center justify-between px-8 py-4 font-montserrat "
+	class="h-5vh fixed z-20 flex w-full items-center justify-between px-8 py-4 font-montserrat lg:px-16 lg:py-8 "
 >
 	<div class="text-lg font-medium text-white lg:text-2xl">
 		<a href="/">peterb</a>
 	</div>
-	<nav class="hidden gap-8 text-lg font-bold text-white lg:flex lg:text-2xl">
-		<span>About</span>
-		<span>Profile</span>
-		<span>Work</span>
+	<nav class="hidden gap-8 font-opensans text-lg font-medium text-white lg:flex lg:text-2xl">
+		<span>about</span>
+		<span>profile</span>
+		<span>work</span>
 	</nav>
 	<button class="relative h-[35px] w-[35px] lg:hidden" on:click={toggleMenu}>
 		{#if $sideMenuOpened}
