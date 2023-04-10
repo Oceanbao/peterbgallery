@@ -1,9 +1,13 @@
 import { readable, writable } from 'svelte/store';
-import dataWork from '$lib/data.json';
+import landingImageData from '$lib/landing-images.json';
 
-export type TItem = typeof dataWork[0]
+export type TLandingImageData = (typeof landingImageData)[0];
+
+export const landingImagesPortrait$ = readable(
+	landingImageData.filter((data) => data.name.includes('portrait'))
+);
+export const landingImagesLandscape$ = readable(
+	landingImageData.filter((data) => data.name.includes('landscape'))
+);
 
 export const sideMenuOpened = writable(false);
-
-export const dataPen = readable(dataWork);
-

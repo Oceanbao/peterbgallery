@@ -1,0 +1,327 @@
+[
+	{
+		"name": "landscape-1",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 201,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/landscape-1_400w.jpg",
+				"800w": "/landing-images/landscape-1_800w.jpg",
+				"1200w": "/landing-images/landscape-1_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/landscape-1_400w.webp",
+				"800w": "/landing-images/landscape-1_800w.webp",
+				"1200w": "/landing-images/landscape-1_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/landscape-1_400w.avif",
+				"800w": "/landing-images/landscape-1_800w.avif",
+				"1200w": "/landing-images/landscape-1_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoIAAgAAUAmJZgCdAEPD9JJZAAA/vbzJZtOWQvnxkyvY38QUT6chzztZfP5YQTJ7/E9ag7Rn/J3VTrI6lRPrtqsMJyc2/AA"
+	},
+	{
+		"name": "landscape-3",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 148,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/landscape-3_400w.jpg",
+				"800w": "/landing-images/landscape-3_800w.jpg",
+				"1200w": "/landing-images/landscape-3_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/landscape-3_400w.webp",
+				"800w": "/landing-images/landscape-3_800w.webp",
+				"1200w": "/landing-images/landscape-3_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/landscape-3_400w.avif",
+				"800w": "/landing-images/landscape-3_800w.avif",
+				"1200w": "/landing-images/landscape-3_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAQCdASoIAAYAAUAmJZwAAvdohMCAAP765dXQqS7+e8uR689MoHNmNRcf/aOdiEsm4/NaC8hPyM/L4nQRsJr7qJ6dxfvVKv+P584VSyYcaCUV5S0AAA=="
+	},
+	{
+		"name": "portrait-3",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 304,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/portrait-3_400w.jpg",
+				"800w": "/landing-images/portrait-3_800w.jpg",
+				"1200w": "/landing-images/portrait-3_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/portrait-3_400w.webp",
+				"800w": "/landing-images/portrait-3_800w.webp",
+				"1200w": "/landing-images/portrait-3_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/portrait-3_400w.avif",
+				"800w": "/landing-images/portrait-3_800w.avif",
+				"1200w": "/landing-images/portrait-3_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoIAAwAAUAmJZwCdMn8BXOsebp3gAD++ZkZuj01z+jvZiSF2Ny60gJrTKRZAvr6YQXOkNTEe1BrThilALLOgPCQrY6TsiOAkjkynDT/pIAAAA=="
+	},
+	{
+		"name": "portrait-4",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 349,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/portrait-4_400w.jpg",
+				"800w": "/landing-images/portrait-4_800w.jpg",
+				"1200w": "/landing-images/portrait-4_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/portrait-4_400w.webp",
+				"800w": "/landing-images/portrait-4_800w.webp",
+				"1200w": "/landing-images/portrait-4_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/portrait-4_400w.avif",
+				"800w": "/landing-images/portrait-4_800w.avif",
+				"1200w": "/landing-images/portrait-4_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQAgCdASoIAA4AAUAmJYgCdAYu52aL/OwV0AAA4nu9SqhLw4Y944c3Xg0TvD1DxY528YhzB/eOHNOYPx5QKYJad3IXKy0oxOuJqcV0KHBv2N7gIkj+KHmwv/ShGwAA"
+	},
+	{
+		"name": "portrait-5",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 284,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/portrait-5_400w.jpg",
+				"800w": "/landing-images/portrait-5_800w.jpg",
+				"1200w": "/landing-images/portrait-5_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/portrait-5_400w.webp",
+				"800w": "/landing-images/portrait-5_800w.webp",
+				"1200w": "/landing-images/portrait-5_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/portrait-5_400w.avif",
+				"800w": "/landing-images/portrait-5_800w.avif",
+				"1200w": "/landing-images/portrait-5_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoIAAsAAUAmJYwCdAYtVkxFOuTRWAD+6K1Z6fFZ2qhxZ/xgS+6ufkd7A1MDvvJiyYuE8CbMkL9gUZD9KKSS6fvRsHIgvl+UGownzq6dP5FeEYwhZt4PYJCzSBPNAAAA"
+	},
+	{
+		"name": "landscape-2",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 142,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/landscape-2_400w.jpg",
+				"800w": "/landing-images/landscape-2_800w.jpg",
+				"1200w": "/landing-images/landscape-2_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/landscape-2_400w.webp",
+				"800w": "/landing-images/landscape-2_800w.webp",
+				"1200w": "/landing-images/landscape-2_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/landscape-2_400w.avif",
+				"800w": "/landing-images/landscape-2_800w.avif",
+				"1200w": "/landing-images/landscape-2_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoIAAYAAUAmJZQCdAEOuwXvAAD+C7oqxX7eWgwpjXV1SoPH7I8In8w/LqZuATdgxNQeB/+GXoGu+kk866wnrTFAfYAAAA=="
+	},
+	{
+		"name": "portrait-6",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 300,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/portrait-6_400w.jpg",
+				"800w": "/landing-images/portrait-6_800w.jpg",
+				"1200w": "/landing-images/portrait-6_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/portrait-6_400w.webp",
+				"800w": "/landing-images/portrait-6_800w.webp",
+				"1200w": "/landing-images/portrait-6_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/portrait-6_400w.avif",
+				"800w": "/landing-images/portrait-6_800w.avif",
+				"1200w": "/landing-images/portrait-6_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACwAgCdASoIAAwAAUAmJbACdLoA1AAV1VwkWvVd4MAA/vb9Tfwra4mnFbv44Q2K+A5Aoiy5zSzBtqogEM2++2dTL955/1u//EcEJJA+cW39te6h4V3/Fb/AYf/PacKt5+E/fE8m3X/ZduiAYL7I3c/FwAA="
+	},
+	{
+		"name": "landscape-6",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 137,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/landscape-6_400w.jpg",
+				"800w": "/landing-images/landscape-6_800w.jpg",
+				"1200w": "/landing-images/landscape-6_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/landscape-6_400w.webp",
+				"800w": "/landing-images/landscape-6_800w.webp",
+				"1200w": "/landing-images/landscape-6_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/landscape-6_400w.avif",
+				"800w": "/landing-images/landscape-6_800w.avif",
+				"1200w": "/landing-images/landscape-6_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoIAAUAAUAmJZwCdAEWUMJwmgAA/vcVRbi9/zdjDtTp4wfoIT/2XYWW3OqNAIxaPODFhAAA"
+	},
+	{
+		"name": "landscape-4",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 141,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/landscape-4_400w.jpg",
+				"800w": "/landing-images/landscape-4_800w.jpg",
+				"1200w": "/landing-images/landscape-4_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/landscape-4_400w.webp",
+				"800w": "/landing-images/landscape-4_800w.webp",
+				"1200w": "/landing-images/landscape-4_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/landscape-4_400w.avif",
+				"800w": "/landing-images/landscape-4_800w.avif",
+				"1200w": "/landing-images/landscape-4_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoIAAYAAUAmJZQCdAD0u4r7nQAA/t4R+0NVPtQPRCpT465nEKEEU9YukSK5OlR69pKwVLFXq0mkSAAA"
+	},
+	{
+		"name": "portrait-2",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 268,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/portrait-2_400w.jpg",
+				"800w": "/landing-images/portrait-2_800w.jpg",
+				"1200w": "/landing-images/portrait-2_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/portrait-2_400w.webp",
+				"800w": "/landing-images/portrait-2_800w.webp",
+				"1200w": "/landing-images/portrait-2_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/portrait-2_400w.avif",
+				"800w": "/landing-images/portrait-2_800w.avif",
+				"1200w": "/landing-images/portrait-2_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoIAAsAAUAmJZwAApxY7z3TwAD++PRVULBYKWnnQW/uwxVBp6e1vOpRc76vw0GW7tSQkdPctxXMhYXKwwEd6Uao8FqE0fT7sL1dVH8xGDSzAAAA"
+	},
+	{
+		"name": "landscape-5",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 142,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/landscape-5_400w.jpg",
+				"800w": "/landing-images/landscape-5_800w.jpg",
+				"1200w": "/landing-images/landscape-5_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/landscape-5_400w.webp",
+				"800w": "/landing-images/landscape-5_800w.webp",
+				"1200w": "/landing-images/landscape-5_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/landscape-5_400w.avif",
+				"800w": "/landing-images/landscape-5_800w.avif",
+				"1200w": "/landing-images/landscape-5_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoIAAYAAUAmJYwCdEf/gbjXzIFZQAD+if+zsB1DCihGKfYKcMXJN8ztEHO6QxrRyS3JhIDZknYmFRBp/GlCL0uvFspc4AAA"
+	},
+	{
+		"name": "landscape-7",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 140,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/landscape-7_400w.jpg",
+				"800w": "/landing-images/landscape-7_800w.jpg",
+				"1200w": "/landing-images/landscape-7_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/landscape-7_400w.webp",
+				"800w": "/landing-images/landscape-7_800w.webp",
+				"1200w": "/landing-images/landscape-7_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/landscape-7_400w.avif",
+				"800w": "/landing-images/landscape-7_800w.avif",
+				"1200w": "/landing-images/landscape-7_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoIAAYAAUAmJZwCw7D0uMEnYgAA/u4qfep6O3lzfvgWWaX7OzysRI/CcanRiRa163XodcE3YGAAAA=="
+	},
+	{
+		"name": "portrait-1",
+		"technique": "technique",
+		"dimension": "dimension",
+		"width": 200,
+		"height": 284,
+		"srcset": {
+			"jpg": {
+				"400w": "/landing-images/portrait-1_400w.jpg",
+				"800w": "/landing-images/portrait-1_800w.jpg",
+				"1200w": "/landing-images/portrait-1_1200w.jpg"
+			},
+			"webp": {
+				"400w": "/landing-images/portrait-1_400w.webp",
+				"800w": "/landing-images/portrait-1_800w.webp",
+				"1200w": "/landing-images/portrait-1_1200w.webp"
+			},
+			"avif": {
+				"400w": "/landing-images/portrait-1_400w.avif",
+				"800w": "/landing-images/portrait-1_800w.avif",
+				"1200w": "/landing-images/portrait-1_1200w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAQCdASoIAAsAAUAmJaQAAqsMc+RsAPzREprJPbWa4dhWBtLN0NoUuIbIroudXctjyaK6hZ4FlYLMNbdDtLD0oqOwq3v3ffAUBDFmoKq7SMAA"
+	}
+]

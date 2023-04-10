@@ -1,7 +1,8 @@
 <script lang="ts">
 	import FlyInBox from './FlyInBox.svelte';
+  import Image from './Image.svelte';
 
-	export let src: string;
+	export let imgData: Record<string, string | Record<string, string>>;
 	export let title: string;
 	export let link: string;
 </script>
@@ -19,7 +20,7 @@
 			href={link}
 			class="absolute h-full w-full cursor-pointer opacity-70 transition-opacity duration-500 ease-in-out lg:opacity-100 lg:group-hover:opacity-70"
 		>
-			<img alt="someimage1" {src} class="h-full w-full object-cover" loading="lazy" />
+      <Image clazz="h-full w-full object-cover" alt="someimage1" width="1024" height="723" srcsetJpg={imgData.jpg} srcsetWebp={imgData.webp} srcsetAvif={imgData.avif} blurBase64={imgData.blurBase64}/>
 		</a>
 	</div></FlyInBox
 >

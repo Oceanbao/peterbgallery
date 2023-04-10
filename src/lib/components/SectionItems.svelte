@@ -5,6 +5,34 @@
 	import { breakpoints } from '../breakpoints';
 	import { dataPen, type TItem } from '$lib/stores';
 
+  function fixPath(path: string) {
+    return `/imagesPeterb/${path}`
+  }
+
+  function makeData(data: TItem) {
+    return {
+      webp: {
+        '480w': fixPath(data.webp['480w']),
+        '720w': fixPath(data.webp['720w']),
+        '1024w': fixPath(data.webp['1024w']),
+        '1920w': fixPath(data.webp['1920w']),
+      },
+      avif: {
+        '480w': fixPath(data.avif['480w']),
+        '720w': fixPath(data.avif['720w']),
+        '1024w': fixPath(data.avif['1024w']),
+        '1920w': fixPath(data.avif['1920w']),
+      },
+      jpg: {
+        '480w': fixPath(data.jpg['480w']),
+        '720w': fixPath(data.jpg['720w']),
+        '1024w': fixPath(data.jpg['1024w']),
+        '1920w': fixPath(data.jpg['1920w']),
+      },
+      blurBase64: data.blur
+    }
+  }
+
 	let showModal = false;
 	let modalData: TItem;
 
@@ -31,17 +59,19 @@
 	}
 
 	let screenWidth: number;
+
+  let sizes = "(max-width: 1024px) 200px, 400px" 
 </script>
 
 <svelte:window bind:innerWidth={screenWidth} />
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div class="flex gap-16 lg:gap-16 ">
+<div class="flex gap-[clamp(2rem,5vw,4rem)] justify-evenly">
 	{#if screenWidth > breakpoints.lg}
 		{#each getData(3) as batches}
 			<div class="flex flex-col">
 				{#each batches as item}
-					<CardItem src={getFilePath(item.filename)} on:click={() => openModal(item)} />
+					<CardItem imgData={makeData(item[1])} on:click={() => openModal(item)} {sizes} />
 				{/each}
 			</div>
 		{/each}
@@ -49,7 +79,7 @@
 		{#each getData(2) as batches}
 			<div class="flex flex-col">
 				{#each batches as item}
-					<CardItem src={getFilePath(item.filename)} on:click={() => openModal(item)} />
+					<CardItem imgData={makeData(item[1])}  on:click={() => openModal(item)} {sizes} />
 				{/each}
 			</div>
 		{/each}
@@ -57,7 +87,7 @@
 		{#each getData(1) as batches}
 			<div class="flex flex-col">
 				{#each batches as item}
-					<CardItem src={getFilePath(item.filename)} on:click={() => openModal(item)} />
+					<CardItem imgData={makeData(item[1])} on:click={() => openModal(item)} {sizes} />
 				{/each}
 			</div>
 		{/each}
