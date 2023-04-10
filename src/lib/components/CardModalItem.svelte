@@ -1,18 +1,28 @@
 <script lang="ts">
-	import type { TItem } from "../stores";
+	import type { TImageData } from '../stores';
+	import Image from '$lib/components/Image.svelte';
 
-  export let modalData: TItem
+	export let imgData: TImageData;
 </script>
 
-	<div class="flex flex-col">
-		<img alt="someimage1" src={`/gallery/${modalData.filename}`} class="mx-4 mt-16 mb-20 aspect-auto" loading="lazy" />
-  <div class="flex flex-col mx-4 mb-24">
+<div class="flex flex-col">
+	<Image
+		clazz="aspect-auto mx-4 mt-16 mb-20"
+		alt={imgData.name}
+		srcsetJpg={imgData.srcset.jpg}
+		srcsetWebp={imgData.srcset.webp}
+		srcsetAvif={imgData.srcset.avif}
+		blurBase64={imgData.blurBase64}
+		fetchpriority="low"
+		loading="lazy"
+	/>
+	<div class="mx-4 mb-24 flex flex-col">
 		<h1 class="title font-montserrat text-3xl font-light">TITLE</h1>
-    <hr class="h-0.5 w-full bg-gray-500 mt-4 mb-6"/>
-		<p>{modalData.info}</p>
-		<p>{modalData.width} x {modalData.height}</p>
-  </div>
+		<hr class="mt-4 mb-6 h-0.5 w-full bg-gray-500" />
+		<p>{imgData.technique}</p>
+		<p>{imgData.dimension}</p>
 	</div>
+</div>
 
-  <style>
+<style>
 </style>

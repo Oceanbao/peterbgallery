@@ -6,8 +6,8 @@
 	export let loading: 'lazy' | 'eager' | null = 'lazy';
 	export let fetchpriority: 'high' | 'low' | 'auto' | undefined;
 	export let alt: string;
-	export let clazz: string;
-	export let stylee: string;
+	export let clazz = '';
+	export let stylee = '';
 	export let sizes = '100vw';
 
 	$: _srcsetAvif = Object.entries(srcsetAvif).reduce((acc, [w, src]) => acc + `${src} ${w},`, '');

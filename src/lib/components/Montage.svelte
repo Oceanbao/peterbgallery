@@ -1,16 +1,12 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Image from './Image.svelte';
-	import {
-		landingImagesPortrait$,
-		landingImagesLandscape$,
-		type TLandingImageData
-	} from '$lib/stores';
+	import { landingImagesPortrait$, landingImagesLandscape$, type TImageData } from '$lib/stores';
 
 	let screenWidth: number;
 	let screenHeight: number;
 	let portrait: boolean;
-	let images: TLandingImageData[] = [];
+	let images: TImageData[] = [];
 
 	onMount(() => {
 		portrait = screenWidth / screenHeight < 0.8;

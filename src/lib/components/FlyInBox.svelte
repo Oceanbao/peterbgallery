@@ -1,18 +1,18 @@
 <script lang="ts">
 	import { inview } from 'svelte-inview';
-	import type { ObserverEventDetails, ScrollDirection, Options } from 'svelte-inview';
+	import type { ObserverEventDetails, Options } from 'svelte-inview';
 
 	let entering: boolean;
 
 	let isInView: boolean;
-	let scrollDirection: ScrollDirection;
+	let scrollDirection: string;
 	const options: Options = {
 		rootMargin: '-10%',
 		unobserveOnEnter: false
 	};
 	const handleChange = ({ detail }: CustomEvent<ObserverEventDetails>) => {
 		isInView = detail.inView;
-		scrollDirection = detail.scrollDirection.vertical;
+		scrollDirection = String(detail.scrollDirection.vertical);
 	};
 	const handleEnter = ({ detail }: CustomEvent<ObserverEventDetails>) => {
 		entering = true;

@@ -1,8 +1,9 @@
 <script lang="ts">
 	import FlyInBox from './FlyInBox.svelte';
-  import Image from './Image.svelte';
+	import Image from './Image.svelte';
+	import type { TImageData } from '../stores';
 
-	export let imgData: Record<string, string | Record<string, string>>;
+	export let imgData: TImageData;
 	export let title: string;
 	export let link: string;
 </script>
@@ -20,7 +21,15 @@
 			href={link}
 			class="absolute h-full w-full cursor-pointer opacity-70 transition-opacity duration-500 ease-in-out lg:opacity-100 lg:group-hover:opacity-70"
 		>
-      <Image clazz="h-full w-full object-cover" alt="someimage1" width="1024" height="723" srcsetJpg={imgData.jpg} srcsetWebp={imgData.webp} srcsetAvif={imgData.avif} blurBase64={imgData.blurBase64}/>
+			<Image
+				clazz="h-full w-full object-cover"
+				alt={imgData.name}
+				srcsetJpg={imgData.srcset.jpg}
+				srcsetWebp={imgData.srcset.webp}
+				srcsetAvif={imgData.srcset.avif}
+				blurBase64={imgData.blurBase64}
+				fetchpriority="high"
+			/>
 		</a>
 	</div></FlyInBox
 >

@@ -11,7 +11,7 @@
 	let element: HTMLElement;
 	let percent: number;
 	let observer: IntersectionObserver;
-	let unobserve = () => {};
+	let unobserve: () => void;
 	let intersectionObserverSupport = false;
 
 	function intersectPercent(entries: IntersectionObserverEntry[]) {

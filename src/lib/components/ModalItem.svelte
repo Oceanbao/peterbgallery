@@ -6,14 +6,14 @@
 </script>
 
 <svelte:head>
-   {#if showModal}
-      <style>
-         body {
-            overflow: hidden;
-         }
-      </style>
-   {/if}
-</svelte:head>	
+	{#if showModal}
+		<style>
+			body {
+				overflow: hidden;
+			}
+		</style>
+	{/if}
+</svelte:head>
 
 {#if showModal}
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -37,6 +37,6 @@
 			/></svg
 		>
 
-    <slot />
+		<slot />
 	</section>
 {/if}

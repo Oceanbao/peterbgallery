@@ -1,7 +1,7 @@
 import { readable, writable } from 'svelte/store';
 import landingImageData from '$lib/landing-images.json';
 
-export type TLandingImageData = (typeof landingImageData)[0];
+export type TImageData = (typeof landingImageData)[0];
 
 export const landingImagesPortrait$ = readable(
 	landingImageData.filter((data) => data.name.includes('portrait'))
