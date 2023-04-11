@@ -8,83 +8,83 @@
 		font-family: 'Open Sans';
 		font-style: normal;
 		font-weight: 300;
-		src: url('$fonts/opensans/open-sans-v34-latin-300.woff2') format('woff2');
+		src: url('/fonts/opensans/open-sans-v34-latin-300.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Open Sans';
 		font-style: normal;
 		font-weight: 400;
-		src: url('$fonts/opensans/open-sans-v34-latin-regular.woff2') format('woff2');
+		src: url('/fonts/opensans/open-sans-v34-latin-regular.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Open Sans';
 		font-style: normal;
 		font-weight: 500;
-		src: url('$fonts/opensans/open-sans-v34-latin-500.woff2') format('woff2');
+		src: url('/fonts/opensans/open-sans-v34-latin-500.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Open Sans';
 		font-style: normal;
 		font-weight: 600;
-		src: url('$fonts/opensans/open-sans-v34-latin-600.woff2') format('woff2');
+		src: url('/fonts/opensans/open-sans-v34-latin-600.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Open Sans';
 		font-style: normal;
 		font-weight: 700;
-		src: url('$fonts/opensans/open-sans-v34-latin-700.woff2') format('woff2');
+		src: url('/fonts/opensans/open-sans-v34-latin-700.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Open Sans';
 		font-style: normal;
 		font-weight: 800;
-		src: url('$fonts/opensans/open-sans-v34-latin-800.woff2') format('woff2');
+		src: url('/fonts/opensans/open-sans-v34-latin-800.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 300;
-		src: url('$fonts/montserrat/montserrat-v25-latin-300.woff2') format('woff2');
+		src: url('/fonts/montserrat/montserrat-v25-latin-300.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 400;
-		src: url('$fonts/montserrat/montserrat-v25-latin-regular.woff2') format('woff2');
+		src: url('/fonts/montserrat/montserrat-v25-latin-regular.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 500;
-		src: url('$fonts/montserrat/montserrat-v25-latin-500.woff2') format('woff2');
+		src: url('/fonts/montserrat/montserrat-v25-latin-500.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 600;
-		src: url('$fonts/montserrat/montserrat-v25-latin-600.woff2') format('woff2');
+		src: url('/fonts/montserrat/montserrat-v25-latin-600.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 700;
-		src: url('$fonts/montserrat/montserrat-v25-latin-700.woff2') format('woff2');
+		src: url('/fonts/montserrat/montserrat-v25-latin-700.woff2') format('woff2');
 	}
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 800;
-		src: url('$fonts/montserrat/montserrat-v25-latin-800.woff2') format('woff2');
+		src: url('/fonts/montserrat/montserrat-v25-latin-800.woff2') format('woff2');
 	}
 }

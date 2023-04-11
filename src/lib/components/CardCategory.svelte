@@ -22,8 +22,10 @@
 			class="absolute h-full w-full cursor-pointer opacity-70 transition-opacity duration-500 ease-in-out lg:opacity-100 lg:group-hover:opacity-70"
 		>
 			<Image
-				clazz="h-full w-full object-cover"
+				clazz="w-full object-cover"
 				alt={imgData.name}
+				width={String(imgData.width)}
+				height={String(imgData.height)}
 				srcsetJpg={imgData.srcset.jpg}
 				srcsetWebp={imgData.srcset.webp}
 				srcsetAvif={imgData.srcset.avif}

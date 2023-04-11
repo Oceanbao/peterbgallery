@@ -6,6 +6,8 @@
 	export let loading: 'lazy' | 'eager' | null = 'lazy';
 	export let fetchpriority: 'high' | 'low' | 'auto' | undefined;
 	export let alt: string;
+	export let width: string;
+	export let height: string;
 	export let clazz = '';
 	export let stylee = '';
 	export let sizes = '100vw';
@@ -13,9 +15,6 @@
 	$: _srcsetAvif = Object.entries(srcsetAvif).reduce((acc, [w, src]) => acc + `${src} ${w},`, '');
 	$: _srcsetWebp = Object.entries(srcsetWebp).reduce((acc, [w, src]) => acc + `${src} ${w},`, '');
 	$: _srcsetJpg = Object.entries(srcsetJpg).reduce((acc, [w, src]) => acc + `${src} ${w},`, '');
-
-	let width = '480';
-	let height = '';
 </script>
 
 <picture>

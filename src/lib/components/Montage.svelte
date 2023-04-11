@@ -50,6 +50,8 @@
 		stylee={`opacity: ${showA ? 1 : 0};`}
 		clazz="absolute h-full w-full object-cover lg:fixed [transition:opacity_800ms_ease-in-out]"
 		alt={srcA.name}
+		width={String(srcA.width)}
+		height={String(srcA.height)}
 		srcsetJpg={srcA.srcset.jpg}
 		srcsetWebp={srcA.srcset.webp}
 		srcsetAvif={srcA.srcset.avif}
@@ -60,6 +62,8 @@
 		stylee={`opacity: ${showB ? 1 : 0};`}
 		clazz="absolute h-full w-full object-cover lg:fixed [transition:opacity_800ms_ease-in-out]"
 		alt={srcB.name}
+		width={String(srcB.width)}
+		height={String(srcB.height)}
 		srcsetJpg={srcB.srcset.jpg}
 		srcsetWebp={srcB.srcset.webp}
 		srcsetAvif={srcB.srcset.avif}

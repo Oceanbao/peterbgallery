@@ -1,7 +1,9 @@
 <script>
 </script>
 
-<footer class="w-full py-4 px-4 font-opensans lg:relative lg:bg-slate-900 lg:py-8 lg:px-16">
+<footer
+	class="w-full py-4 px-[clamp(2rem,5vw,4rem)] font-opensans lg:relative lg:bg-slate-900 lg:py-8"
+>
 	<div class="flex flex-col">
 		<div class="flex gap-4 pb-8 lg:pb-16">
 			<!-- instagram -->

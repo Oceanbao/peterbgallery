@@ -5,10 +5,12 @@
 	export let imgData: TImageData;
 </script>
 
-<div class="flex flex-col">
+<div class="flex h-full w-full flex-col px-4">
 	<Image
-		clazz="aspect-auto mx-4 mt-16 mb-20"
+		clazz="w-full aspect-auto mt-16 mb-20"
 		alt={imgData.name}
+		width={String(imgData.width)}
+		height={String(imgData.height)}
 		srcsetJpg={imgData.srcset.jpg}
 		srcsetWebp={imgData.srcset.webp}
 		srcsetAvif={imgData.srcset.avif}
