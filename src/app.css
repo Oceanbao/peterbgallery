@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 @layer base {
+	:root {
+		--color-primary-dark: 17 23 41;
+		/* --color-primary-light: 232 220 184; */
+		--color-primary-light: 255 255 255;
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html,
+	body {
+		height: 100%;
+	}
+
 	@font-face {
 		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 		font-family: 'Open Sans';

@@ -1,15 +1,19 @@
 <script lang="ts">
 	import CardCategory from './CardCategory.svelte';
-	import { landingImagesLandscape$ } from '$lib/stores';
+	import { cloudImages$ } from '$lib/stores';
 
-	const imgData = $landingImagesLandscape$[0];
+	function getCategoryImage(type: string) {
+		return $cloudImages$.filter((data) => data.technique === type)[0];
+	}
 </script>
 
-<div class="box grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-16 ">
-	<CardCategory {imgData} title="pen and ink" link="/pen-and-ink" />
-	<CardCategory {imgData} title="pen and ink" link="/pen-and-ink" />
-	<CardCategory {imgData} title="pen and ink" link="/pen-and-ink" />
-	<CardCategory {imgData} title="pen and ink" link="/pen-and-ink" />
+<div class="box grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16 ">
+	<CardCategory imgData={getCategoryImage('pen')} title="PEN" link="/pen" />
+	<CardCategory imgData={getCategoryImage('cink')} title="CHINESE INK" link="/cink" />
+	<CardCategory imgData={getCategoryImage('water')} title="WATER COLOUR" link="/water" />
+	<CardCategory imgData={getCategoryImage('acrylic')} title="ACRYLIC" link="/acrylic" />
+	<CardCategory imgData={getCategoryImage('printing')} title="PRINTING INK" link="/printing" />
+	<CardCategory imgData={getCategoryImage('oil')} title="OIL" link="/oil" />
 </div>
 
 <style>

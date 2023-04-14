@@ -20,7 +20,7 @@
 	<section
 		in:fade={{ duration: 500, easing: cubicOut }}
 		out:fade={{ duration: 500, easing: cubicIn }}
-		class="modal fixed inset-0 z-30 grid place-items-center overflow-y-scroll overscroll-contain bg-neutral-200"
+		class="modal fixed inset-0 z-30 grid place-items-center overflow-y-scroll overscroll-contain bg-white"
 	>
 		<!-- icon-cross -->
 		<svg

@@ -18,10 +18,8 @@
 
 <Montage />
 
-<main class="relative grid px-[clamp(2rem,5vw,4rem)] lg:bg-slate-900">
+<main class="relative grid bg-primary-dark px-[clamp(2rem,5vw,4rem)]">
 	<hr class="my-8 h-[1px] bg-gray-300 lg:my-16" />
 
 	<SectionCategory />
-
-	<hr class="my-8 h-[1px] bg-gray-300 lg:my-16" />
 </main>

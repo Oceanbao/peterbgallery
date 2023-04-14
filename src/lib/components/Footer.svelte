@@ -2,8 +2,10 @@
 </script>
 
 <footer
-	class="w-full py-4 px-[clamp(2rem,5vw,4rem)] font-opensans lg:relative lg:bg-slate-900 lg:py-8"
+	class="relative w-full py-4 px-[clamp(2rem,5vw,4rem)] font-opensans lg:bg-primary-dark lg:py-8"
 >
+	<hr class="my-8 h-[1px] bg-gray-300 lg:my-16" />
+
 	<div class="flex flex-col">
 		<div class="flex gap-4 pb-8 lg:pb-16">
 			<!-- instagram -->
@@ -36,6 +38,6 @@
 			<!-- > -->
 		</div>
 		<!-- other info -->
-		<div class="font-regular py-4 text-sm text-gray-200">Copyright © 2023 Peter Bao</div>
+		<div class="py-4 text-sm font-normal text-gray-200">Copyright © 2023 Peter Bao</div>
 	</div>
 </footer>

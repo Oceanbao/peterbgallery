@@ -1,0 +1,56 @@
+[
+	{
+		"name": "NONAME_ACRYLIC_21x30_58",
+		"technique": "acrylic",
+		"dimension": "21x30",
+		"url": "https://peterb-gallery.imgix.net/NONAME_ACRYLIC_21x30_58.png",
+		"width": 400,
+		"height": 284,
+		"blurBase64": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoIAAYAAUAmJYwCdEf/gbjXztkdAAD+if6vf3k5E0PLcdQtabbQ31W2RweoLvb0NOUK6QGzJOxIateyQ3AGtcUrFuAAAA=="
+	},
+	{
+		"name": "NONAME_CINK_90x98_109",
+		"technique": "cink",
+		"dimension": "90x98",
+		"url": "https://peterb-gallery.imgix.net/NONAME_CINK_90x98_109.png",
+		"width": 400,
+		"height": 513,
+		"blurBase64": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoIAAoAAUAmJYwCdAD0j1K+xXyAAP6Kb3HTTo2ay7JfEqu+uNxHRIsyN2ljNexeBsgZRX8NqYintfveUD/pm7Pv8az7Hn3V0y/427Rg1sdJqE8AAAA="
+	},
+	{
+		"name": "FLY-WHISK_OIL_103x103_59",
+		"technique": "oil",
+		"dimension": "103x103",
+		"url": "https://peterb-gallery.imgix.net/FLY-WHISK_OIL_103x103_59.png",
+		"width": 400,
+		"height": 352,
+		"blurBase64": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoIAAcAAUAmJQBOgB6SIKmSgAD+7Q2ggmWaq/kkCM2qfYe7Y4ygD3gIY3bLbNkLQITunCyLdV+8JnACH3YAAA=="
+	},
+	{
+		"name": "NONAME_PEN_40x60_11",
+		"technique": "pen",
+		"dimension": "40x60",
+		"url": "https://peterb-gallery.imgix.net/NONAME_PEN_40x60_11.png",
+		"width": 400,
+		"height": 295,
+		"blurBase64": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoIAAYAAUAmJZwAAuUKFEAA/pUOifR0/AnaBfugz7fxIBUXa1qFcqubj4TZiy7zRs6e+5P0RgAAAA=="
+	},
+	{
+		"name": "FLOWERS-OF-MEDITERRANEAN_WATER_40x60_6",
+		"technique": "water",
+		"dimension": "40x60",
+		"url": "https://peterb-gallery.imgix.net/FLOWERS-OF-MEDITERRANEAN_WATER_40x60_6.png",
+		"width": 400,
+		"height": 271,
+		"blurBase64": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoIAAUAAUAmJZwCdAD0Ma2oAP6Jr8vDE7Cng+wXO+EQwTHVyRISfPRUAAA="
+	},
+	{
+		"name": "TRIBUTE-VAN-GOGH_PRINTING_80x54_25",
+		"technique": "printing",
+		"dimension": "80x54",
+		"url": "https://peterb-gallery.imgix.net/TRIBUTE-VAN-GOGH_PRINTING_80x54_25.png",
+		"width": 400,
+		"height": 595,
+		"blurBase64": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwAgCdASoIAAwAAUAmJbACdAYtJ5VK46xO3mwAAP7SZCkwe3EVpTKfmH5g0sEb7f9+2lU68O1gt3+AigiliBcz2mKw0qhGuH9QSAz8mzK+P9sY0mIt5uUnojrJ6jbPhRVM/cnOCC7rpUfBy44C3Zs9otJQAA=="
+	}
+]

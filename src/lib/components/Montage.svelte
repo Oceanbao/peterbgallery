@@ -45,7 +45,7 @@
 
 <svelte:window bind:innerWidth={screenWidth} bind:innerHeight={screenHeight} />
 
-<div class="montage top-0 left-0  h-screen w-screen">
+<div class="relative top-0 left-0 h-screen w-screen">
 	<Image
 		stylee={`opacity: ${showA ? 1 : 0};`}
 		clazz="absolute h-full w-full object-cover lg:fixed [transition:opacity_800ms_ease-in-out]"

@@ -2,19 +2,29 @@
 	import { sideMenuOpened } from '@/lib/stores';
 	import { fade, fly } from 'svelte/transition';
 	import { cubicIn, cubicOut, circOut } from 'svelte/easing';
+
+	function closeSideMenu() {
+		$sideMenuOpened = false;
+	}
 </script>
 
 {#if $sideMenuOpened}
 	<div
 		in:fly={{ y: -500, easing: cubicOut, duration: 500 }}
 		out:fly={{ y: -500, easing: cubicIn, duration: 500 }}
-		class="fixed z-10 grid h-screen w-screen place-content-center bg-slate-900"
+		class="fixed top-0 left-0 z-10 grid h-screen w-screen place-content-center bg-slate-900"
 	>
-		<nav class="flex flex-col items-center gap-8 font-montserrat text-3xl uppercase text-gray-50">
-			<a in:fly={{ y: -200, easing: circOut, duration: 200, delay: 200 }} href="/">About</a>
-			<a in:fly={{ y: -200, easing: circOut, duration: 300, delay: 300 }} href="/">About</a>
-			<a in:fly={{ y: -200, easing: circOut, duration: 400, delay: 400 }} href="/">About</a>
-			<a in:fly={{ y: -200, easing: circOut, duration: 500, delay: 500 }} href="/">About</a>
+		<nav class="flex flex-col items-center gap-8 font-montserrat text-3xl text-gray-50">
+			<a
+				in:fly={{ y: -200, easing: circOut, duration: 200, delay: 200 }}
+				href="/about"
+				on:click={closeSideMenu}>about</a
+			>
+			<a
+				in:fly={{ y: -200, easing: circOut, duration: 300, delay: 300 }}
+				href="/contact"
+				on:click={closeSideMenu}>contact</a
+			>
 		</nav>
 		<div class="mt-8 grid place-content-center place-items-center">
 			<hr class="w-[80vw]" />

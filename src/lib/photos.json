@@ -1,0 +1,132 @@
+[
+	{
+		"name": "peter_photo_na_1",
+		"collection": "peter",
+		"technique": "photo",
+		"dimension": "na",
+		"width": 200,
+		"height": 151,
+		"srcset": {
+			"jpg": {
+				"200w": "/photos/peter/peter_photo_na_1_200w.jpg",
+				"400w": "/photos/peter/peter_photo_na_1_400w.jpg",
+				"600w": "/photos/peter/peter_photo_na_1_600w.jpg"
+			},
+			"webp": {
+				"200w": "/photos/peter/peter_photo_na_1_200w.webp",
+				"400w": "/photos/peter/peter_photo_na_1_400w.webp",
+				"600w": "/photos/peter/peter_photo_na_1_600w.webp"
+			},
+			"avif": {
+				"200w": "/photos/peter/peter_photo_na_1_200w.avif",
+				"400w": "/photos/peter/peter_photo_na_1_400w.avif",
+				"600w": "/photos/peter/peter_photo_na_1_600w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoIAAYAAUAmJYwCdAEegXsctgAA/op/lBzj8Is4ajxtSxXjcWZHn5tnlc+4KoGEyc6/4JSFWpO0QI2ypFzY4SlXXm7zmMAA"
+	},
+	{
+		"name": "peter_photo_na_2",
+		"collection": "peter",
+		"technique": "photo",
+		"dimension": "na",
+		"width": 200,
+		"height": 160,
+		"srcset": {
+			"jpg": {
+				"200w": "/photos/peter/peter_photo_na_2_200w.jpg",
+				"400w": "/photos/peter/peter_photo_na_2_400w.jpg",
+				"600w": "/photos/peter/peter_photo_na_2_600w.jpg"
+			},
+			"webp": {
+				"200w": "/photos/peter/peter_photo_na_2_200w.webp",
+				"400w": "/photos/peter/peter_photo_na_2_400w.webp",
+				"600w": "/photos/peter/peter_photo_na_2_600w.webp"
+			},
+			"avif": {
+				"200w": "/photos/peter/peter_photo_na_2_200w.avif",
+				"400w": "/photos/peter/peter_photo_na_2_400w.avif",
+				"600w": "/photos/peter/peter_photo_na_2_600w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoIAAYAAUAmJYwC7AD0Tw+TgAD+7Q6Zf2GHP0046/3M64IdmYvqSDWz1lmaUCcjTF+5MLrJHAFS55RsLMi9wAAA"
+	},
+	{
+		"name": "peter_photo_na_5",
+		"collection": "peter",
+		"technique": "photo",
+		"dimension": "na",
+		"width": 200,
+		"height": 150,
+		"srcset": {
+			"jpg": {
+				"200w": "/photos/peter/peter_photo_na_5_200w.jpg",
+				"400w": "/photos/peter/peter_photo_na_5_400w.jpg",
+				"600w": "/photos/peter/peter_photo_na_5_600w.jpg"
+			},
+			"webp": {
+				"200w": "/photos/peter/peter_photo_na_5_200w.webp",
+				"400w": "/photos/peter/peter_photo_na_5_400w.webp",
+				"600w": "/photos/peter/peter_photo_na_5_600w.webp"
+			},
+			"avif": {
+				"200w": "/photos/peter/peter_photo_na_5_200w.avif",
+				"400w": "/photos/peter/peter_photo_na_5_400w.avif",
+				"600w": "/photos/peter/peter_photo_na_5_600w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoIAAYAAUAmJYwCdAD0pMeqoAD5ZsP+KPK78H2poIf79M2D+uv8ZM+K/aznQPxRZfzbIX/z+u3a3Ry+mF8XL4+Nst8Y4M/R0vn4AA=="
+	},
+	{
+		"name": "peter_photo_na_6",
+		"collection": "peter",
+		"technique": "photo",
+		"dimension": "na",
+		"width": 200,
+		"height": 150,
+		"srcset": {
+			"jpg": {
+				"200w": "/photos/peter/peter_photo_na_6_200w.jpg",
+				"400w": "/photos/peter/peter_photo_na_6_400w.jpg",
+				"600w": "/photos/peter/peter_photo_na_6_600w.jpg"
+			},
+			"webp": {
+				"200w": "/photos/peter/peter_photo_na_6_200w.webp",
+				"400w": "/photos/peter/peter_photo_na_6_400w.webp",
+				"600w": "/photos/peter/peter_photo_na_6_600w.webp"
+			},
+			"avif": {
+				"200w": "/photos/peter/peter_photo_na_6_200w.avif",
+				"400w": "/photos/peter/peter_photo_na_6_400w.avif",
+				"600w": "/photos/peter/peter_photo_na_6_600w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoIAAYAAUAmJZwCdAD0uo8l8AAAzj5e0skR7SQWv0Z6WwDA2SZmJgBrJckt8kLl10Pe7CmUbdBliNQSrdyfeTxJv1jUAAAA"
+	},
+	{
+		"name": "peter_photo_na_4",
+		"collection": "peter",
+		"technique": "photo",
+		"dimension": "na",
+		"width": 200,
+		"height": 130,
+		"srcset": {
+			"jpg": {
+				"200w": "/photos/peter/peter_photo_na_4_200w.jpg",
+				"400w": "/photos/peter/peter_photo_na_4_400w.jpg",
+				"600w": "/photos/peter/peter_photo_na_4_600w.jpg"
+			},
+			"webp": {
+				"200w": "/photos/peter/peter_photo_na_4_200w.webp",
+				"400w": "/photos/peter/peter_photo_na_4_400w.webp",
+				"600w": "/photos/peter/peter_photo_na_4_600w.webp"
+			},
+			"avif": {
+				"200w": "/photos/peter/peter_photo_na_4_200w.avif",
+				"400w": "/photos/peter/peter_photo_na_4_400w.avif",
+				"600w": "/photos/peter/peter_photo_na_4_600w.avif"
+			}
+		},
+		"blurBase64": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoIAAUAAUAmJZACdLoAAro8qVAA/vS1B3p+OiRxfQ7kohZPLplDfQj+9l0H+Om36Y1JTY9yn77FxkP78YAAAA=="
+	}
+]
