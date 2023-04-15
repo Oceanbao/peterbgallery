@@ -4,8 +4,9 @@
 	import Image from '$lib/components/Image.svelte';
 
 	export let modalImages: TCloudImage[];
-
 	let shownIndex = 0;
+	const collection = writeCollection(modalImages[0].collection);
+	$: dimension = writeDimension(modalImages[shownIndex].dimension);
 
 	function getSrcSet(imgData: TCloudImage) {
 		const srcset = new Map();
@@ -43,14 +44,17 @@
 </script>
 
 <div
-	class="grid h-full w-full content-center gap-4 px-4 pt-24 md:max-w-2xl md:px-8 lg:max-w-4xl lg:px-16 lg:pb-12"
+	class="flex h-full w-full flex-col gap-4 px-4 pt-24 md:max-w-2xl md:px-8 lg:max-w-4xl lg:px-16 lg:pb-12"
 >
-	<div class="w-full">
-		<div class="relative mb-4 aspect-[4/5] w-full">
+	<div class="flex h-auto w-full flex-col">
+		<div class="relative mb-4 aspect-square w-full">
 			{#key shownIndex}
-				<div class="absolute inset-0 h-full w-full" transition:fade>
+				<div
+					class="absolute inset-0 grid h-full w-full items-center overflow-scroll"
+					transition:fade
+				>
 					<Image
-						clazz="object-cover object-top w-full h-full aspect-auto"
+						clazz="w-full h-auto "
 						alt={modalImages[shownIndex].name}
 						width={String(modalImages[shownIndex].width)}
 						height={String(modalImages[shownIndex].height)}
@@ -65,14 +69,14 @@
 			{/key}
 		</div>
 
-		<div class="relative w-full">
+		<div class="relative h-auto w-full">
 			<ul class="flex flex-wrap gap-2">
 				{#each modalImages as imgData, idx}
 					<li class="h-16 w-16">
 						<img
 							on:click={() => selectImage(idx)}
 							on:keypress={() => selectImage(idx)}
-							class={`aspect-square object-cover ${
+							class={`h-full w-full object-cover ${
 								shownIndex === idx ? 'opacity-100' : 'opacity-40'
 							}`}
 							width={imgData.width}
@@ -89,11 +93,11 @@
 		</div>
 	</div>
 
-	<div class="relative mb-8 flex-auto">
+	<div class="relative mb-8">
 		<h1 class="title font-montserrat text-3xl font-light uppercase">
-			{writeCollection(modalImages[shownIndex].collection)}
+			{collection}
 		</h1>
 		<hr class="mt-4 mb-6 h-0.5 w-full bg-gray-500" />
-		<p>{writeDimension(modalImages[shownIndex].dimension)} cm</p>
+		<p>{dimension} cm</p>
 	</div>
 </div>

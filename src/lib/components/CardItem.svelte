@@ -1,9 +1,9 @@
 <script lang="ts">
 	import FlyInBox from './FlyInBox.svelte';
 	import Image from './Image.svelte';
-	import type { TImageData } from '../stores';
+	import type { TCloudImage } from '../stores';
 
-	export let imgData: TImageData;
+	export let imgData: TCloudImage;
 	export let sizes: string;
 	// export let link: string;
 
@@ -27,10 +27,10 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <FlyInBox>
-	<div on:click class="flex flex-col gap-4">
+	<div on:click class="flex flex-col gap-4 hover:cursor-pointer">
 		<Image
 			{sizes}
-			clazz="w-full aspect-auto"
+			clazz="w-full h-auto"
 			alt={imgData.name}
 			width={String(imgData.width)}
 			height={String(imgData.height)}

@@ -2,7 +2,7 @@
 </script>
 
 <footer
-	class="relative w-full py-4 px-[clamp(2rem,5vw,4rem)] font-opensans lg:bg-primary-dark lg:py-8"
+	class="relative w-full bg-primary-dark py-4 px-[clamp(2rem,5vw,4rem)] font-opensans lg:py-8"
 >
 	<hr class="my-8 h-[1px] bg-gray-300 lg:my-16" />
 

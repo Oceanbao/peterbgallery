@@ -31,34 +31,36 @@
 	class="flex flex-col justify-center gap-[clamp(2rem,5vw,4rem)] px-[clamp(2rem,5vw,4rem)] pt-[20vh] md:flex-row"
 >
 	<div class="montage relative aspect-square w-full md:h-[33%] md:w-[33%] md:self-center">
-		<div class="absolute h-full w-full">
-			<Image
-				stylee={`opacity: ${showA ? 1 : 0};`}
-				clazz=" h-full w-full object-cover [transition:opacity_800ms_ease-in-out]"
-				alt={srcA.name}
-				width={String(srcA.width)}
-				height={String(srcA.height)}
-				srcsetJpg={srcA.srcset.jpg}
-				srcsetWebp={srcA.srcset.webp}
-				srcsetAvif={srcA.srcset.avif}
-				blurBase64={srcA.blurBase64}
-				fetchpriority="high"
-			/>
-		</div>
-		<div class="absolute h-full w-full">
-			<Image
-				stylee={`opacity: ${showB ? 1 : 0};`}
-				clazz=" h-full w-full object-cover [transition:opacity_800ms_ease-in-out]"
-				alt={srcB.name}
-				width={String(srcB.width)}
-				height={String(srcB.height)}
-				srcsetJpg={srcB.srcset.jpg}
-				srcsetWebp={srcB.srcset.webp}
-				srcsetAvif={srcB.srcset.avif}
-				blurBase64={srcB.blurBase64}
-				fetchpriority="high"
-			/>
-		</div>
+		<Image
+			clazzBox="absolute"
+			styleeBox={`width: 100%; height: 100%; opacity: ${
+				showA ? 1 : 0
+			}; transition: opacity 800ms ease-in-out`}
+			clazz="h-full w-full object-cover"
+			alt={srcA.name}
+			width={String(srcA.width)}
+			height={String(srcA.height)}
+			srcsetJpg={srcA.srcset.jpg}
+			srcsetWebp={srcA.srcset.webp}
+			srcsetAvif={srcA.srcset.avif}
+			blurBase64={srcA.blurBase64}
+			fetchpriority="high"
+		/>
+		<Image
+			clazzBox="absolute"
+			styleeBox={`width: 100%; height: 100%; opacity: ${
+				showB ? 1 : 0
+			}; transition: opacity 800ms ease-in-out`}
+			clazz="h-full w-full object-cover"
+			alt={srcB.name}
+			width={String(srcB.width)}
+			height={String(srcB.height)}
+			srcsetJpg={srcB.srcset.jpg}
+			srcsetWebp={srcB.srcset.webp}
+			srcsetAvif={srcB.srcset.avif}
+			blurBase64={srcB.blurBase64}
+			fetchpriority="high"
+		/>
 	</div>
 
 	<div class="md:w-[50vw]">
@@ -72,8 +74,8 @@
 		>
 			<p class="my-4">
 				Peter is a Chinese artist who has been residing in Marbella, Spain. A devout follower of
-				Buddhist culture and faith, Peter has been dedicating for decades to depicting the beauty of
-				humanity and nature, imbuing his works with Zen philosophy.
+				Buddhist culture and faith, Peter has dedicated decades to depicting the beauty of humanity
+				and nature, imbuing his works with Zen philosophy.
 			</p>
 			<p class="my-4">
 				He holds a deep conviction that love and diligence are the fundamental elements of an
@@ -81,8 +83,8 @@
 			</p>
 			<p class="my-4">
 				For over 40 years, Peter has been focusing on pen drawing, with a rich variety of
-				characters, elegant and vividness. He has a unique expressive ability and style. His works
-				have been exhibited and auctioned many times, with collectors across the world. With a rich
+				characters, elegant and vivid. He has a unique expressive ability and style. His works have
+				been exhibited and auctioned many times, with collectors across the world. With a rich
 				experience in multiple forms and techniques, Peter’s works span over canvas and paper, water
 				color and oil and acrylic, among others.
 			</p>

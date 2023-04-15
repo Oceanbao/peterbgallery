@@ -20,7 +20,7 @@
 	</script>
 </svelte:head>
 
-<div class="relative z-50 bg-primary-dark ">
+<div class="relative z-50 bg-primary-dark">
 	<Header />
 	<SideMenu />
 	<slot />

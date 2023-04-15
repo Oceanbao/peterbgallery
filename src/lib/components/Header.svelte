@@ -1,15 +1,28 @@
 <script lang="ts">
-	import { fly } from 'svelte/transition';
+	import { fade, fly } from 'svelte/transition';
 	import { sideMenuOpened } from '@/lib/stores';
-	import ThemeToggle from './ThemeToggle.svelte';
 
 	function toggleMenu() {
 		$sideMenuOpened = !$sideMenuOpened;
 	}
+
+	let showWorks = false;
+	let showWorksTimer: NodeJS.Timeout;
+
+	function onHoverWorks() {
+		if (showWorksTimer) clearTimeout(showWorksTimer);
+		showWorks = true;
+	}
+	function offHoverWorks() {
+		if (showWorksTimer) clearTimeout(showWorksTimer);
+		showWorksTimer = setTimeout(() => {
+			showWorks = false;
+		}, 300);
+	}
 </script>
 
 <header
-	class="h-5vh fixed top-0 left-0 z-20 flex w-full items-center justify-between px-8 py-4 font-montserrat lg:px-16 lg:py-8 "
+	class="h-5vh fixed top-0 left-0 z-20 flex w-full items-center justify-between px-[clamp(2rem,5vw,4rem)] py-4 font-montserrat md:py-6 lg:py-8"
 >
 	<div class="text-lg font-medium text-primary-light lg:text-2xl">
 		<a href="/">peterb</a>
@@ -19,6 +32,22 @@
 		<nav
 			class="hidden gap-8 font-opensans text-lg font-medium text-primary-light lg:flex lg:text-2xl"
 		>
+			<div class="relative" on:mouseenter={onHoverWorks} on:mouseleave={offHoverWorks}>
+				<span class="">works</span>
+				{#if showWorks}
+					<div
+						transition:fly={{ y: -50, duration: 800 }}
+						class="works absolute top-[50%] left-[50%] flex flex-col items-center justify-center gap-4 text-center text-lg leading-6 text-primary-light [transform:translate(-50%,10%)] lg:text-2xl"
+					>
+						<a href="/pen">pen</a>
+						<a href="/water">water</a>
+						<a href="/cink">chinese ink</a>
+						<a href="/acrylic">acrylic</a>
+						<a href="/printing">printing ink</a>
+						<a href="/oil">oil</a>
+					</div>
+				{/if}
+			</div>
 			<a href="/about"><span class="">about</span></a>
 			<a href="/contact"><span class="">contact</span></a>
 		</nav>
@@ -61,3 +90,27 @@
 		</button>
 	</div>
 </header>
+
+<style>
+	.works a {
+		position: relative;
+		text-decoration: none;
+	}
+
+	.works a::before {
+		content: '';
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background-color: #fff;
+		transform: scaleX(0);
+		transition: transform 300ms ease;
+	}
+
+	.works a:hover::before {
+		transform: scaleX(1);
+	}
+</style>

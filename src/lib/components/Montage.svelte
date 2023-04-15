@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Image from './Image.svelte';
-	import { landingImagesPortrait$, landingImagesLandscape$, type TImageData } from '$lib/stores';
+	import { landingImagesPortrait$, landingImagesLandscape$, type TLocalImage } from '$lib/stores';
 
 	let screenWidth: number;
 	let screenHeight: number;
 	let portrait: boolean;
-	let images: TImageData[] = [];
+	let images: TLocalImage[] = [];
 
 	onMount(() => {
 		portrait = screenWidth / screenHeight < 0.8;
@@ -47,8 +47,11 @@
 
 <div class="relative top-0 left-0 h-screen w-screen">
 	<Image
-		stylee={`opacity: ${showA ? 1 : 0};`}
-		clazz="absolute h-full w-full object-cover lg:fixed [transition:opacity_800ms_ease-in-out]"
+		clazzBox="absolute"
+		styleeBox={`width: 100%; height: 100%; opacity: ${
+			showA ? 1 : 0
+		}; transition: opacity 800ms ease-in-out`}
+		clazz="h-full w-full object-cover lg:fixed"
 		alt={srcA.name}
 		width={String(srcA.width)}
 		height={String(srcA.height)}
@@ -59,8 +62,11 @@
 		fetchpriority="high"
 	/>
 	<Image
-		stylee={`opacity: ${showB ? 1 : 0};`}
-		clazz="absolute h-full w-full object-cover lg:fixed [transition:opacity_800ms_ease-in-out]"
+		clazzBox="absolute"
+		styleeBox={`width: 100%; height: 100%; opacity: ${
+			showB ? 1 : 0
+		}; transition: opacity 800ms ease-in-out`}
+		clazz="h-full w-full object-cover lg:fixed"
 		alt={srcB.name}
 		width={String(srcB.width)}
 		height={String(srcB.height)}
