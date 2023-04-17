@@ -12,10 +12,10 @@
 
 	formats.forEach((format) => {
 		srcset.set(format, {
-			'200w': `${imgData.url}?fm=jpg&q=60&w=200`,
-			'400w': `${imgData.url}?fm=jpg&q=60&w=400`,
-			'600w': `${imgData.url}?fm=jpg&q=60&w=600`,
-			'800w': `${imgData.url}?fm=jpg&q=60&w=800`
+			'400w': `${imgData.url}?fm=${format}&q=60&w=400`,
+			'600w': `${imgData.url}?fm=${format}&q=60&w=600`,
+			'800w': `${imgData.url}?fm=${format}&q=60&w=800`,
+			'1200w': `${imgData.url}?fm=${format}&q=60&w=1200`
 		});
 	});
 </script>
